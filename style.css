@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    ---White: hsl(0, 0%, 100%)
+--Light gray: hsl(212, 45%, 89%)
+--Grayish blue: hsl(220, 15%, 55%)
+--Dark blue: hsl(218, 44%, 22%)
+}
+body
+{
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%) ;
+}
+.container{
+    background-color: aliceblue;;
+    height:76vh;
+    width:23%;
+   border-radius: 20px;;
+   
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+}
+.img1{
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+    margin:20px;
+    padding: auto;
+}
+.p1{
+    font-family: outfit;
+    font-size: 25px;
+    margin:10px;
+    padding-left: 5px;
+    padding-right: 5px;;
+    text-align: center;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+}
+.p2{
+    font-size: 17px;
+    font-family: outfit;
+    color:hsl(220, 15%, 55%);
+    margin-left:20px;
+    margin-right: 20px;
+    padding-left: 15px;;
+    text-align: center;
+    ;;
+}
+@media (max-width:500px) {
+  body
+{
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    height: 50vh;
+    width: 100%:;
+}
+.container{
+    background-color: aliceblue;;
+    height:40vh;
+    width:80%;
+   border-radius: 20px;;
+   
+    position: fixed; /* or absolute */
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+}
+.img1{
+    height:250px;
+    width:270px;
+    border-radius: 20px;
+     margin-left:25px;
+}
+    
+.p1{
+    font-family: outfit;
+    font-size: 20px;
+    margin:10px;
+    padding-left: 5px;
+    padding-right: 5px;;
+    text-align: center;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+}
+.p2{
+    font-size: 17px;
+    font-family: outfit;
+    color:hsl(220, 15%, 55%);
+    margin-left:20px;
+    margin-right: 20px;
+    padding-left: 15px;;
+    text-align: center;
+   
+}
+  }
